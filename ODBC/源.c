@@ -50,7 +50,7 @@ void execution(SQLHDBC hDbc)
 	while (!quitFlag)
 	{
 		printf("--------------------------------------------------------------------------\n");
-		printf("department(department_id，department_name，department_teacher，teacher_num)\n");
+		printf("department(department_id，department_name，department_header，teacher_num)\n");
 		printf("键入序号对department表进行相应操作：\n");
 		printf("1.查询 2.更新 3.插入 4.删除 5.退出\n");
 		printf("--------------------------------------------------------------------------\n");
